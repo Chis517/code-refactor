@@ -2,5 +2,5 @@
 complete week 1 challenge assignment
 
 
-[/assets/image.png] (assets/image.png)
+[Screen shot of deployed application](assets/image.png)
 
