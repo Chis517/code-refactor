@@ -10,7 +10,7 @@ Horiseon is a marketing agency that specializes in search engine optimization, o
 
 * As your business searches increase, the cost of advertising will decrease eliminating the need to advertise your page!
 
-## Link and screenshot
+## URL Link and mock-up
 
 * [URL of deployed application](https://chis517.github.io/code-refactor/)
 
