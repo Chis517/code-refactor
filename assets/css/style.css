@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6; 
 }
 
+/* Header and NAV bar styles start */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -47,8 +48,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Header and NAV bar styles end */
 
-/* These are the styles for the hero image*/
+/* HERO image styles */
 .hero {
     background-image: url("../images/digital-marketing-meeting.jpg");
     height: 800px;
@@ -58,14 +60,14 @@ a {
     background-position: center;
 }
 
-/* These are the styles for the main content sections*/
+/* Main content styles start */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section {
+.content section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -74,31 +76,27 @@ section {
     color: #ffffff;
 }
 
+.content section img {
+    max-height: 200px;
+}
+
+.content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+/* Main content styles end */
 
+/* aside bar styles start */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-section img {
-    max-height: 200px;
-}
-
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-section p {
-    font-size: 16px;
-    width: 100%;
-}
-
-/* These are the styles for the benefits sidebar*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -125,7 +123,9 @@ section p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* aside bar styles end */
 
+/* Footer styles start */
 footer {
     padding: 30px;
     clear: both;
@@ -136,3 +136,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* Footer styles end */
